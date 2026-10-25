@@ -1,0 +1,29 @@
+# Names for unnamed functions in Carracho Server 1.0b13 (library code without traceback tables).
+49cc0 TCPSocket::Receive(buf, len, timeout)
+49ff0 TCPSocket::Send(buf, len, timeout)
+48e40 Stream::ReadU32(stream, u32*)
+48e90 Stream::ReadU16(stream, u16*)
+48ee0 Stream::ReadS16(stream, s16*)
+48f30 Stream::ReadU8(stream, u8*)
+48f80 Stream::WriteU32(stream, u32)
+48fd0 Stream::WriteU16(stream, u16)
+49020 Stream::WriteS32(stream, s32)
+49070 Stream::WriteS16(stream, s16)
+48a80 NewPtr(size)
+48ac0 DisposePtr(p)
+4cf60 operator_new(size)
+4c8d0 __throw
+692d0 strlen
+692f0 strcpy
+69360 strcat
+693e0 strcmp
+69420 strncmp
+66b20 sprintf
+63b10 memcpy(dst, src, n)
+48af0 HLockScoped(state*, handle)
+48b50 HUnlockScoped(state*)
+48a40 NewPtr2(size)
+48d70 Stream::SetLength(stream, len)
+490c0 Stream::WriteU8(stream, u8)
+49110 Stream::WriteS8(stream, s8)
+49160 Stream::WriteString(stream, cstr)   # u16 length + bytes, no terminator

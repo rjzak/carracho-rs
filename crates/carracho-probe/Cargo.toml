@@ -1,0 +1,13 @@
+[package]
+name = "carracho-probe"
+description = "Test client for Carracho servers: logs in, runs a few commands and dumps every packet"
+edition.workspace = true
+license.workspace = true
+version.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+carracho-proto.workspace = true
+clap.workspace = true
+similar.workspace = true

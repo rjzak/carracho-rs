@@ -1,0 +1,13 @@
+[package]
+name = "carracho-proto"
+description = "Wire formats for the Carracho file sharing and chat protocols"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+blowfish.workspace = true
+encoding_rs.workspace = true
+md-5.workspace = true
+thiserror.workspace = true

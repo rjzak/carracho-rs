@@ -1,0 +1,7 @@
+.idea/
+original/
+target/
+.venv/
+*.dis
+.DS_Store
+carracho-data/

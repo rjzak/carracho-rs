@@ -1,0 +1,16 @@
+[package]
+name = "carracho-tracker"
+description = "Carracho tracker: a directory of Carracho servers, compatible with the original clients and servers"
+edition.workspace = true
+license.workspace = true
+version.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+carracho-proto.workspace = true
+clap.workspace = true
+tokio.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+thiserror.workspace = true
